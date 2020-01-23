@@ -11,3 +11,8 @@ Ben Tristem
 Click [here](https://www.udemy.com/unrealcourse?couponCode=GitHubSpecial) to find out more about the course, and how we build these assets step-by-step.
 
 ##Lecture List
+* BT01 Intro, Notes & Assets
+* BT02 Battle Tank Overview
+* BT03 Games Design Document (GDD)
+* BT04 Setting up a GitHub "Repo"
+* BT05 Creating & Deleting Landscapes
