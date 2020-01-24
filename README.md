@@ -11,8 +11,19 @@ Ben Tristem
 Click [here](https://www.udemy.com/unrealcourse?couponCode=GitHubSpecial) to find out more about the course, and how we build these assets step-by-step.
 
 ##Lecture List
-* BT01 Intro, Notes & Assets
-* BT02 Battle Tank Overview
-* BT03 Games Design Document (GDD)
-* BT04 Setting up a GitHub "Repo"
-* BT05 Creating & Deleting Landscapes
+* BT01 Intro, Notes & Assets (181)
+* BT02 Battle Tank Overview (182)
+* BT03 Games Design Document (GDD) (182)
+* BT04 Setting up a GitHub "Repo" (184)
+* BT05 Creating & Deleting Landscapes (185)
+* BT06 Landscape Setup & Scaling (186)
+* BT07 A Landscaping Process (187)
+* BT08 Upgrading Engine Version (188)
+* BT09 Using Landscape Layers (189)
+* BT10 Flat Shading Low Poly Landscapes (190)
+* BT11 More Landscaping Tools (191)
+* BT12 Tank Control System (192)
+* BT13 Actors from Multiple Meshes (193)
+* BT14 Improved Models (194)
+* BT15 Configuring a Tank (195)
+* BT16 3rd Person Camera Control (196)
