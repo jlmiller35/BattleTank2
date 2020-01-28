@@ -11,6 +11,7 @@ Ben Tristem
 Click [here](https://www.udemy.com/unrealcourse?couponCode=GitHubSpecial) to find out more about the course, and how we build these assets step-by-step.
 
 ##Lecture List
+<<<<<<< HEAD
 * BT01 Intro, Notes & Assets (181)
 * BT02 Battle Tank Overview (182)
 * BT03 Games Design Document (GDD) (182)
@@ -32,3 +33,10 @@ Click [here](https://www.udemy.com/unrealcourse?couponCode=GitHubSpecial) to fin
 * BT19 UI Scale Box, Buttons and Mouse
 * BT20 Controller Ready Navigation
 * BT21 Creating Unreal Engine UI with UMG and C++
+=======
+* BT01 Intro, Notes & Assets
+* BT02 Battle Tank Overview
+* BT03 Games Design Document (GDD)
+* BT04 Setting up a GitHub "Repo"
+* BT05 Creating & Deleting Landscapes
+>>>>>>> parent of b629c82... Landscape Setup - Ready for Tank
