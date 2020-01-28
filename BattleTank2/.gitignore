@@ -1,4 +1,5 @@
 *.VC.db
+*.BT17-M1A1*
 
 # Visual Studio 2015 user specific files
 .vs/
