@@ -1,1 +1,3 @@
 BattleTank2/Content/UI/BT17-Firing-M1A1-tank-in-Djibouti.uasset
+BattleTank2/Source/BattleTank2/Private/TankPlayerController.cpp
+BattleTank2/Source/BattleTank2/Private/TankPlayerController.h
