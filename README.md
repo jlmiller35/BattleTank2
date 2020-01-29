@@ -32,3 +32,12 @@ Click [here](https://www.udemy.com/unrealcourse?couponCode=GitHubSpecial) to fin
 * BT19 UI Scale Box, Buttons and Mouse
 * BT20 Controller Ready Navigation
 * BT21 Creating Unreal Engine UI with UMG and C++
+* BT22 Trial Packaging Your Game
+* BT23 Delegating to Components
+* BT24 Using virtual and override
+* BT25 Overloading and polymorphism
+* BT26 Virtual Functions and vtables
+* BT27 Creating an AI Controller Class
+* BT28 Get the Player Controller with C++
+* BT29 Add Tick() to PlayerController
+* BT30 Creating an Out Parameter
