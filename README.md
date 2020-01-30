@@ -32,6 +32,7 @@ Click [here](https://www.udemy.com/unrealcourse?couponCode=GitHubSpecial) to fin
 * BT18 Main Menu Screens
 * BT19 UI Scale Box, Buttons and Mouse
 * BT20 Controller Ready Navigation
+<<<<<<< HEAD
 * BT21 Creating Unreal Engine UI with UMG and C++
 =======
 * BT01 Intro, Notes & Assets
