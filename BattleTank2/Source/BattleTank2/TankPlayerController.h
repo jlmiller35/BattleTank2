@@ -19,7 +19,15 @@ class BATTLETANK2_API ATankPlayerController : public APlayerController
 public:
 	virtual void BeginPlay() override;
 
+	virtual void Tick(float DeltaTime) override;
+
 private:	
 	ATank* GetControlledTank() const;
+
+	//Start tank moving barrel toward target through crosshair
+	void AimTowardsCrosshair();
+
+	//Return an OUT parameter, true if hits landscape
+	bool GetSightRayHitLocation(FVector& OutHitLocation) const;
 	
 };
