@@ -21,7 +21,7 @@ public:
 
 	virtual void Tick(float DeltaTime) override;
 
-private:	
+private:
 	ATank* GetControlledTank() const;
 
 	//Start tank moving barrel toward target through crosshair
@@ -29,5 +29,12 @@ private:
 
 	//Return an OUT parameter, true if hits landscape
 	bool GetSightRayHitLocation(FVector& OutHitLocation) const;
-	
+
+	UPROPERTY(EditAnywhere)
+	float CrosshairXLocation = 0.5;
+
+	UPROPERTY(EditAnywhere)
+	float CrosshairYLocation = 0.3;
+
+	bool GetLookDirection(FVector2D ScreenLocation, FVector& LookDirection) const;
 };
