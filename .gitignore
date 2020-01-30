@@ -74,3 +74,4 @@ Plugins/*/Intermediate/*
 
 # Cache files for the editor to use
 DerivedDataCache/*
+BattleTank2/Source/BattleTank2/TankPlayerController.cpp.rej
