@@ -36,13 +36,8 @@ void ATankPlayerController::AimTowardsCrosshair()
 	FVector HitLocation; //out parameter
 	if (GetSightRayHitLocation(HitLocation)) //Has side effect, it going to ray trace
 	{
-<<<<<<< HEAD
 		
 		GetControlledTank()->AimAt(HitLocation);
-=======
-		//UE_LOG(LogTemp, Warning, TEXT("Look direction: %s"), *HitLocation.ToString());
-		//TODO aim at this point
->>>>>>> parent of f52c3b2... Using LineTraceSingleByChannel()
 	}
 }
 
@@ -57,13 +52,13 @@ bool ATankPlayerController::GetSightRayHitLocation(FVector& HitLocation) const
 	FVector LookDirection;
 	if (GetLookDirection(ScreenLocation, LookDirection))
 	{
-		UE_LOG(LogTemp, Warning, TEXT("Look direction: %s"), *LookDirection.ToString());
+		//line trace along look direction, see what we hit at max range
+		GetLookVectorHitLocation(LookDirection, HitLocation);
 	}
-	//line trace along look direction, see what we hit at max range
+	
 	return true;
 }
 
-<<<<<<< HEAD
 bool ATankPlayerController::GetLookVectorHitLocation(FVector LookDirection, FVector& HitLocation) const
 {
 	FHitResult HitResult;
