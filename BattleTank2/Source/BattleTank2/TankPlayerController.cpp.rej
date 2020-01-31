@@ -1,0 +1,10 @@
+diff a/BattleTank2/Source/BattleTank2/TankPlayerController.cpp b/BattleTank2/Source/BattleTank2/TankPlayerController.cpp	(rejected hunks)
+@@ -36,7 +36,7 @@
+ 	FVector HitLocation; //out parameter
+ 	if (GetSightRayHitLocation(HitLocation)) //Has side effect, it going to ray trace
+ 	{
+-		//UE_LOG(LogTemp, Warning, TEXT("Look direction: %s"), *HitLocation.ToString());
++		UE_LOG(LogTemp, Warning, TEXT("Hit Location: %s"), *HitLocation.ToString());
+ 		//TODO aim at this point
+ 	}
+ }
