@@ -3,12 +3,14 @@
 #pragma once
 
 #include "CoreMinimal.h"
-#include "Tank.h"
 #include "GameFramework/PlayerController.h"
 #include "GameFramework/Actor.h"
 #include "Engine/World.h"
 #include "Kismet/GameplayStatics.h"
 #include "TankPlayerController.generated.h"
+
+//forward declarations
+class ATank;
 
 /**
  * 

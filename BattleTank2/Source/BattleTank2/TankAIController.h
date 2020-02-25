@@ -5,9 +5,11 @@
 #include "CoreMinimal.h"
 #include "GameFramework/Actor.h"
 #include "Kismet/GameplayStatics.h"
-#include "Tank.h"
 #include "AIController.h"
 #include "TankAIController.generated.h"
+
+//forward declatations
+class ATank;
 
 /**
  * 
