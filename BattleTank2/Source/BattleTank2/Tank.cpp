@@ -14,7 +14,6 @@ ATank::ATank()
 
 	//No need to protect pointer as added at construction
 	TankAimingComponent = CreateDefaultSubobject<UTankAimingComponent>(FName("Aiming Component"));
-
 }
 
 void ATank::SetBarrelReference(UTankBarrel* BarrelToSet)
@@ -51,16 +50,14 @@ void ATank::AimAt(FVector HitLocation)
 
 void ATank::Fire()
 {
-	auto Time = GetWorld()->GetTimeSeconds();
-	UE_LOG(LogTemp, Warning, TEXT("%f: Tank Fires"), Time);
-
 	if (!Barrel) { return; }
 
 	//spawn projectile at socket location in barrel
-	GetWorld()->SpawnActor<AProjectile>(
+	auto Projectile = GetWorld()->SpawnActor<AProjectile>(
 		ProjectileBlueprint,
 		Barrel->GetSocketLocation(FName("Projectile")),
 		Barrel->GetSocketRotation(FName("Projectile"))
 		);
 
+	Projectile->LaunchProjectile(LaunchSpeed);
 }
