@@ -19,6 +19,6 @@ public:
 	// -1 is max one direction, 1 is max speed other direction
 	void Rotate(float RelativeSpeed);
 private:
-	UPROPERTY(EditAnywhere) //added outside course
+	UPROPERTY(EditDefaultsOnly) //added outside course
 	float MaxDegreesPerSecond = 25;  
 };
